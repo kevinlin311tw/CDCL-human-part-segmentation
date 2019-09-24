@@ -3,7 +3,6 @@
 This is the code repository for the paper:  
 **Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation**  
 Kevin Lin, Lijuan Wang, Kun Luo, Yinpeng Chen, Zicheng Liu, Ming-Ting Sun
-
 [[paper](https://arxiv.org/abs/1907.05193)] [[Youtube Demo Video](https://youtu.be/8QaGfdHwH48).]
 
 
