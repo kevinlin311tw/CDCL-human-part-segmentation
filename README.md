@@ -9,7 +9,6 @@ Kevin Lin, Lijuan Wang, Kun Luo, Yinpeng Chen, Zicheng Liu, Ming-Ting Sun
 ![teaser](http://students.washington.edu/kvlin/data/cdcl_teaser.png)
 
 
-![teaser](https://f5aa38c8-a-62cb3a1a-s-sites.googlegroups.com/site/kevinlin311tw/me/out3.gif)
 
 
 ## Installation instructions
@@ -90,4 +89,5 @@ If you find CDCL useful for your research, please consider citing the following 
 	  Journal  = {arXiv preprint arXiv:1907.05193},
 	  Year     = {2019}
 	}
+
 
