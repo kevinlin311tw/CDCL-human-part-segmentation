@@ -15,6 +15,8 @@ Kevin Lin, Lijuan Wang, Kun Luo, Yinpeng Chen, Zicheng Liu, Ming-Ting Sun
 ## Installation instructions
 Our codebase is developed based on Ubuntu 16.04 LTS, CUDA 9.0, CUDNN 7.0, Tensorflow 1.12.0, Keras 2.1.1.
 
+### Anaconda
+
 We suggest creating a new conda environment for setting up the relevant dependencies. After installing [Anaconda](https://docs.anaconda.com/anaconda/install/linux/) on your machine, please run the following command:
 
     $ conda env create -f cdcl_environment.yaml
@@ -22,6 +24,8 @@ We suggest creating a new conda environment for setting up the relevant dependen
 After creating the environment, you just need to activate the environment and continue running the demo code.  
 
     $ conda activate cdcl
+
+### Docker
 
 Alternatively, we provide the `Dockerfile` which can be used to build a docker image with all dependencies pre-installed. You can find the `Dockerfile` in the folder [docker](https://github.com/kevinlin311tw/CDCL-human-part-segmentation/blob/master/docker). After installing [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) and [Nvidia-Docker2](https://github.com/NVIDIA/nvidia-docker/wiki/Installation-(version-2.0)), please go to the folder `docker`, and run the following command to build the docker image:
 
@@ -35,6 +39,7 @@ It is important to note that this command will mount a local folder in the docke
 `PathA` is the folder path of this repo in your machine. 
 `PathB` is the target folder path in the container.
 
+### Other install solution
 If Anaconda and Docker do not work well on you machine, we list the required packages as below for you to manually install the dependencies.
 
     $ sudo apt-get -y update
