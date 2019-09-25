@@ -3,7 +3,7 @@
 This is the code repository for the paper:  
 **Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation**  
 Kevin Lin, Lijuan Wang, Kun Luo, Yinpeng Chen, Zicheng Liu, Ming-Ting Sun
-[[paper](https://arxiv.org/abs/1907.05193)] [[Demo Video](https://youtu.be/8QaGfdHwH48)]
+[[Paper](https://arxiv.org/abs/1907.05193)] [[Demo Video](https://youtu.be/8QaGfdHwH48)]
 
 
 ![teaser](http://students.washington.edu/kvlin/data/cdcl_teaser.png)
@@ -17,7 +17,7 @@ Our codebase is developed based on Ubuntu 16.04 LTS, CUDA 9.0, CUDNN 7.0, Tensor
 
 We suggest creating a new conda environment for setting up the relevant dependencies. After installing [Anaconda](https://docs.anaconda.com/anaconda/install/linux/) on your machine, please run the following command:
 
-    $ conda env create -f cdcl_environment.yml
+    $ conda env create -f cdcl_environment.yaml
 
 After creating the environment, you just need to activate the environment and continue running the demo code.  
 
