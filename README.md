@@ -58,6 +58,11 @@ This script will fetch the pretrained neural network models. In this demo script
 
 This pre-trained model predcits 6 body parts in the images, and achieves 72.82% mIOU on PASCAL-Person-Part dataset. We denote this model as `CDCL+PASCAL` in our paper.
 
+
+
+More models will be released after approaval
+
+
 ## Run the inference code
 
 This demo runs multi-person part segmentation on the test images. In order to run the inference code, you need to put your testing images in the folder [input](https://github.com/kevinlin311tw/CDCL-human-part-segmentation/blob/master/input). Our inference code will iterate all images in the folder, and generate the results in the folder [output](https://github.com/kevinlin311tw/CDCL-human-part-segmentation/blob/master/output). 
@@ -77,6 +82,8 @@ You may also like to run the following command for multi-scale inference for mor
 ## Training
 
 The traing code is developed based on our previous repo [keras-openpose-reproduce](https://github.com/kevinlin311tw/keras-openpose-reproduce)
+
+
 The proposed training code will be added after approval.
 
 
