@@ -8,7 +8,7 @@ Kevin Lin, Lijuan Wang, Kun Luo, Yinpeng Chen, Zicheng Liu, Ming-Ting Sun
 
 ![teaser](http://students.washington.edu/kvlin/data/cdcl_teaser.png)
 
-
+We address the problem of learning multi-person part segmentation without human labeling. Our proposed complementary learning technique learns a neural network model for multi-person part segmentation using a synthetic dataset and a real dataset. We observe that real and synthetic humans share a common skeleton structure. During learning, the proposed model extracts human skeletons which effectively bridges the synthetic and real domains. Without using human-annotated part segmentation labels, the resultant model works well on real world images.
 
 
 ## Installation instructions
@@ -60,7 +60,7 @@ This pre-trained model predcits 6 body parts in the images, and achieves 72.82% 
 
 
 
-More models will be released after approaval
+More models are coming soon!
 
 
 ## Run the inference code
