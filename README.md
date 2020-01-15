@@ -9,7 +9,7 @@ Kevin Lin, Lijuan Wang, Kun Luo, Yinpeng Chen, Zicheng Liu, Ming-Ting Sun
 [[Paper](https://arxiv.org/abs/1907.05193)] [[Demo Video](https://youtu.be/8QaGfdHwH48)] [[ICCV2019 Demo Poster](http://students.washington.edu/kvlin/data/iccv19-demo-poster.pdf)]
 
 
-![teaser](http://students.washington.edu/kvlin/data/cdcl_teaser.png)
+[![](http://students.washington.edu/kvlin/data/cdcl_teaser.png)](https://youtu.be/8QaGfdHwH48)
 
 We address the problem of learning multi-person part segmentation without human labeling. Our proposed complementary learning technique learns a neural network model for multi-person part segmentation using a synthetic dataset and a real dataset. We observe that real and synthetic humans share a common skeleton structure. During learning, the proposed model extracts human skeletons which effectively bridges the synthetic and real domains. Without using human-annotated part segmentation labels, the resultant model works well on real world images.
 
@@ -97,7 +97,7 @@ Similarly, you can run the following command for multi-scale inference for more 
 The traing code is developed based on our previous repo [keras-openpose-reproduce](https://github.com/kevinlin311tw/keras-openpose-reproduce)
 
 
-The proposed training code will be added after approval.
+The proposed training code and the synthetic data will be released after company approval.
 
 
 ## Citation
