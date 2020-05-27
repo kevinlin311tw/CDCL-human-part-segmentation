@@ -15,6 +15,25 @@ We address the problem of learning multi-person part segmentation without human 
 
 
 
+## Citing paper
+If you find CDCL useful for your research, please consider citing:
+
+
+	@article{lin2020cross,
+	  Title    = {Cross-Domain Complementary Learning Using Pose for Multi-Person Part Segmentation},
+	  Author   = {Lin, Kevin and Wang, Lijuan and Luo, Kun and Chen, Yinpeng and Liu, Zicheng and Sun, Ming-Ting},
+	  Journal  = {IEEE Transactions on Circuits and Systems for Video Technology},
+	  Year     = {2020}
+	}
+
+
+	@article{lin2019cross,
+	  Title    = {Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation},
+	  Author   = {Lin, Kevin and Wang, Lijuan and Luo, Kun and Chen, Yinpeng and Liu, Zicheng and Sun, Ming-Ting},
+	  Journal  = {arXiv preprint arXiv:1907.05193},
+	  Year     = {2019}
+	}
+
 
 ## Installation instructions
 Our codebase is developed based on Ubuntu 16.04 LTS, CUDA 9.0, CUDNN 7.0, Tensorflow 1.12.0, Keras 2.1.1.
@@ -98,16 +117,5 @@ The traing code is developed based on our previous repo [keras-openpose-reproduc
 
 
 The proposed training code and the synthetic data will be released after company approval.
-
-
-## Citation
-If you find CDCL useful for your research, please consider citing the following paper:
-
-	@article{lin2019cross,
-	  Title    = {Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation},
-	  Author   = {Lin, Kevin and Wang, Lijuan and Luo, Kun and Chen, Yinpeng and Liu, Zicheng and Sun, Ming-Ting},
-	  Journal  = {arXiv preprint arXiv:1907.05193},
-	  Year     = {2019}
-	}
 
 
