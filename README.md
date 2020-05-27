@@ -18,14 +18,12 @@ We address the problem of learning multi-person part segmentation without human 
 ## Citing paper
 If you find CDCL useful for your research, please consider citing:
 
-
 	@article{lin2020cross,
 	  Title    = {Cross-Domain Complementary Learning Using Pose for Multi-Person Part Segmentation},
 	  Author   = {Lin, Kevin and Wang, Lijuan and Luo, Kun and Chen, Yinpeng and Liu, Zicheng and Sun, Ming-Ting},
 	  Journal  = {IEEE Transactions on Circuits and Systems for Video Technology},
 	  Year     = {2020}
 	}
-
 
 	@article{lin2019cross,
 	  Title    = {Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation},
@@ -118,4 +116,5 @@ The traing code is developed based on our previous repo [keras-openpose-reproduc
 
 The proposed training code and the synthetic data will be released after company approval.
 
-
+## Contact
+Please feel free to leave suggestions or comments to Kevin Lin (kvlin@uw.edu), Lijuan Wang (lijuanw@microsoft.com), Zicheng Liu (zliu@microsoft.com), Ming-Ting Sun (mts@uw.edu)
