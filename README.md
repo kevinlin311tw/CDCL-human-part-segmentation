@@ -3,10 +3,10 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cross-domain-complementary-learning-with/human-part-segmentation-on-pascal-person-part)](https://paperswithcode.com/sota/human-part-segmentation-on-pascal-person-part?p=cross-domain-complementary-learning-with)
 
 This is the code repository for the paper:  
-**Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation**  
+**Cross-Domain Complementary Learning Using Pose for Multi-Person Part Segmentation**  
 Kevin Lin, Lijuan Wang, Kun Luo, Yinpeng Chen, Zicheng Liu, Ming-Ting Sun
 
-[[Paper](https://arxiv.org/abs/1907.05193)] [[Demo Video](https://youtu.be/8QaGfdHwH48)] [[ICCV2019 Demo Poster](http://students.washington.edu/kvlin/data/iccv19-demo-poster.pdf)]
+[[PDF](https://ieeexplore.ieee.org/document/9094232)] [[arXiv](https://arxiv.org/abs/1907.05193)] [[Demo Video](https://youtu.be/8QaGfdHwH48)] [[ICCV2019 Demo Poster](http://students.washington.edu/kvlin/data/iccv19-demo-poster.pdf)]
 
 
 ![](https://students.washington.edu/kvlin/data/cdcl_teaser.png)
