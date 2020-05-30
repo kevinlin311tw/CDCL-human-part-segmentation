@@ -25,6 +25,8 @@ If you find CDCL useful for your research, please consider citing:
 	  Year     = {2020}
 	}
 
+        or
+
 	@article{lin2019cross,
 	  Title    = {Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation},
 	  Author   = {Lin, Kevin and Wang, Lijuan and Luo, Kun and Chen, Yinpeng and Liu, Zicheng and Sun, Ming-Ting},
