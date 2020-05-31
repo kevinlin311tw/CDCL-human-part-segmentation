@@ -74,6 +74,7 @@ If Anaconda and Docker do not work well on you machine, we list the required pac
 
 
 ## Fetch data
+
 To run our code, you need to also fetch some additional files. Please run the following command:
 
     $ bash fetch_data.sh
@@ -84,7 +85,8 @@ This pre-trained model predcits 6 body parts in the images, and achieves 72.82% 
 
 We also provide a pre-trained model, which predicts 15 body parts in the image. This model is trained without real data labels. We denote this model as `CDCL` in our paper.
 
-Alternatively, you could manually download the pre-trained weights through the following links. Please unzip the files and put the pre-trained weights in the folder `weights`
+### Download files manually
+If the script does not work well on your machine, you could manually download the pre-trained weights through the following links. Please unzip the downloaded files, and put the pre-trained weights in the folder `weights`
 
 Model weights for 6 body parts: [Dropbox](https://www.dropbox.com/s/6ttxi3vb6e7kx4t/cdcl_pascal_model.zip?dl=0) [GoogleDrive](https://drive.google.com/file/d/1OvI8P0S737A0ryrSC3Dw9_KbmDT5Mw-k/view?usp=sharing)
 
