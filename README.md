@@ -6,10 +6,10 @@ This is the code repository for the paper:
 **Cross-Domain Complementary Learning Using Pose for Multi-Person Part Segmentation**  
 Kevin Lin, Lijuan Wang, Kun Luo, Yinpeng Chen, Zicheng Liu, Ming-Ting Sun
 
-[[PDF](https://ieeexplore.ieee.org/document/9094232)] [[arXiv](https://arxiv.org/abs/1907.05193)] [[Demo Video](https://youtu.be/8QaGfdHwH48)] [[ICCV2019 Demo Poster](http://students.washington.edu/kvlin/data/iccv19-demo-poster.pdf)]
+[[PDF](https://ieeexplore.ieee.org/document/9094232)] [[arXiv](https://arxiv.org/abs/1907.05193)] [[Demo Video](https://youtu.be/8QaGfdHwH48)] [[ICCV2019 Demo Poster](https://www.dropbox.com/s/zq1rtci6yiv1iqi/iccv19-demo-poster.pdf?dl=0)]
 
 
-![](https://students.washington.edu/kvlin/data/cdcl_teaser.png)
+![](https://www.dropbox.com/s/l2bt4e4cl22ro36/cdcl_teaser.png?dl=0)
 
 We address the problem of learning multi-person part segmentation without human labeling. Our proposed complementary learning technique learns a neural network model for multi-person part segmentation using a synthetic dataset and a real dataset. We observe that real and synthetic humans share a common skeleton structure. During learning, the proposed model extracts human skeletons which effectively bridges the synthetic and real domains. Without using human-annotated part segmentation labels, the resultant model works well on real world images.
 
@@ -84,7 +84,11 @@ This pre-trained model predcits 6 body parts in the images, and achieves 72.82% 
 
 We also provide a pre-trained model, which predicts 15 body parts in the image. This model is trained without real data labels. We denote this model as `CDCL` in our paper.
 
+If the download script does not work well on your machine, you could manually download the pre-trained weights throught the following links:
 
+Model weights for 6 body parts: [Dropbox](https://www.dropbox.com/s/6ttxi3vb6e7kx4t/cdcl_pascal_model.zip?dl=0) [GoogleDrive](https://drive.google.com/file/d/1OvI8P0S737A0ryrSC3Dw9_KbmDT5Mw-k/view?usp=sharing)
+
+Model weights for 15 body parts: [Dropbox](https://www.dropbox.com/s/sknafz1ep9vds1r/cdcl_model.zip?dl=0) [GoogleDrive](https://drive.google.com/file/d/1R_uqMwkAGf8xK9RXEwvHoEkMeE_iOphf/view?usp=sharing)
 
 ## Run the inference code
 
